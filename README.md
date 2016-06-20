@@ -16,5 +16,7 @@ How to use: <br />
 
 <b>(Will be creating a simple web app based on this script having some more functionalities(Analysis of Long contest's rating, extend to Short contests, etc))</b>
 
+#Screenshot
 
+![screenshot from 2016-06-20 23 31 44](https://cloud.githubusercontent.com/assets/16977717/16205021/50beb640-373f-11e6-9f67-c94a1a0a0ad6.png)
 
