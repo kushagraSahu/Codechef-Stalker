@@ -35,9 +35,11 @@ def extract_user_data():
 		response = requests.get(base_url+username)
 		soup = BeautifulSoup(response.text,'lxml')
 		profile_name = soup.find('div',{'class':'profile'}).find('div',{'class':'user-name-box'}).text
-		category_list = soup.find('div',{'class':'profile'}).findAll('table')[1].findAll('tr')[7].findAll('td')[1].findAll('p')[::-1] #Reversing the list to get recent 10 long challenges.
-		if not category_list:
-			category_list = soup.find('div',{'class':'profile'}).findAll('table')[1].findAll('tr')[8].findAll('td')[1].findAll('p')[::-1]
+		for i in range(0,20):
+			test = soup.find('div',{'class':'profile'}).findAll('table')[1].findAll('tr')[i].findAll('td')[1].findAll('p')[::-1]
+			if test:
+				category_list = test
+				break
 		list_challenges = []
 		for	item in category_list:
 			challenge = {}
