@@ -5,6 +5,7 @@ This is a python script using which you can stalk your friends on codechef by se
 Requirements: <br />
 1. You must have Python installed. Version 2.7.6 is recommended for running this script. Check by running command "python -V" on your terminal.<br />
 2. You must install the BeautifulSoup4 module. This link may be helpful incase you don't have it installed already https://beautiful-soup-4.readthedocs.org/en/latest/ <br />
+3. You must install python's tabulate package. Link to download the package https://pypi.python.org/pypi/tabulate or just type "sudo pip3 install tabulate" on your terminal. <br />
 
 How to use: <br />
 1. Navigate to the required folder in your terminal screen. <br />
