@@ -12,9 +12,9 @@ How to use: <br />
 3. Now type "python3 codechefstalker.py" in your terminal screen. <br />
 4. Enter your friend's Codechef username.<br />
 5. You'll get a clean table of all the long challenges that the user has participated in. It also consists the link to user's submission to every problem he has solved in the corresponding challenge<br />
-6. You will now be asked if you wish to stalk more of your friends. Pressing 'Y' or 'y' shall mean Yes. Press any other key to quit.
+6. You will now be asked if you wish to stalk more of your friends. Pressing 'Y' or 'y' shall mean Yes. Press any other key to quit.<br />
 
-
+<b>(Will be creating a simple web app based on this script having some more functionalities(Analysis of Long contest's rating, extend to Short contests, etc))</b>
 
 
 
