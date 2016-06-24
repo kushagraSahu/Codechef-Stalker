@@ -87,8 +87,8 @@ def extract_user_data():
 		else:
 			print("Thank You!")
 			break
-
-extract_user_data();
+if __name__ == "__main__":
+	extract_user_data();
 
 
 
